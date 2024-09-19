@@ -22,5 +22,21 @@
 		<sonar.password>admin</sonar.password>
 	  
 </properties>
+
+<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <url>http://3.88.166.36:8081/repository/mavson_jenk/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <url>http://3.88.166.36:8081/repository/mavson_jenk_snap/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   
 </project>
